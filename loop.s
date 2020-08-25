@@ -10,7 +10,7 @@ section .rodata
 section .text
 
 _start:
-	cmp r12, 32 ;nombre de fois ou la boucle serra répétée 
+	cmp r12, 32 ;nombre de fois ou la boucle sera répétée 
 	je _exit
 	inc r12
 	mov rax, 1
